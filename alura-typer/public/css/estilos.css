@@ -38,10 +38,14 @@ body {
     display: none;
 }
 
-#spinner{
+#spinner {
     display: none;
 }
 
 #frase-id{
     width: 40px;
+}
+
+#botao-sync{
+    float: right;
 }

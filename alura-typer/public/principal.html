@@ -11,10 +11,12 @@
     <div class="container">
         <h1 class="center">Alura Typer</h1>
         <p class="frase center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
         <div class="center">
-            <img src="img/spinner.gif" alt="Spinner" id="spinner">  
-            <p id="erro">Ocorreu um erro, por favor tente novamente!</p>
+            <img src="img/spinner.gif" alt="Spinner" id="spinner">
+            <p id="erro">Ocorreu um erro, por favor tente novamente</p>
         </div>
+
         <ul class="informacoes center">
             <li>
                 <i class="small material-icons icones">description</i>
@@ -22,7 +24,7 @@
             </li>
             <li>
                 <i class="small material-icons icones">query_builder</i>
-                <span id="tempo-digitacao">3</span> segundos
+                <span id="tempo-digitacao">10</span> segundos
             </li>
         </ul>
 
@@ -39,9 +41,12 @@
                 <i class="material-icons">shuffle</i>
             </a>
             <a id="botao-frase-id" class="btn-floating btn-large waves-effect waves-light cyan">
-                    <i class="material-icons">repeat_one</i>
+                <i class="material-icons">repeat_one</i>
             </a>
             <input type="number" min="0" id="frase-id">
+            <a id="botao-sync" class="btn-floating btn-large waves-effect waves-light yellow">
+                <i class="material-icons">swap_vert</i>
+            </a>
         </div>
 
         <ul class="center">
@@ -67,6 +72,7 @@
     </div>
 
     <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/placar.js"></script>
     <script src="js/frase.js"></script>
